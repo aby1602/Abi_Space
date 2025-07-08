@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',
   images: {
     unoptimized: true,
   },
-}
+  trailingSlash: true,
+  basePath: '/Abi_Space', // Replace with your repository name
+};
 
-export default nextConfig
+export default nextConfig;
