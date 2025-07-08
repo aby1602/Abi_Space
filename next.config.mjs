@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  basePath: '/Abi_Space', // Replace with your repository name
+  basePath: '/Abi_Space', // repo name
 };
 
 export default nextConfig;
